@@ -34,7 +34,7 @@ Use -install to install the GT Mods. To see the mods, check out the -mods.
 $ python GTerminal.py -install <mod>
 ```
 #### -mods
-Use -mods to check which mods GTerminal supports.
+Opens the URL to check which mods GTerminal supports.
 ```console
 $ python GTermina.py -mods
 ```
@@ -45,16 +45,34 @@ URL = https://cdn.discordapp.com/attachments/1000/000/Cool_MODMENU!!!.dll
 With -i:
 **Cool_MODMENU!!!.dll**
 Without -i:
-**Cool_Menu.dll**
-```
+**CoolMenu.dll**
+```console
 # expected requirements:
 $ python GTerminal.py -install <mods> -i
 ```
-#### -mods
-Opens a URL that shows the mods.
-
+#### -version
+Shows which version of GTerminal you are using
+```console
+$ python GTerminal.py -version
+```
+#### -keepvers
+When there is a new update, use this if you want to keep your version and don't want the update message to appear
+```console
+$ python GTerminal.py -keepvers
+```
+#### -discord
+Opens the <a href="https://discord.gg/Fa36fvAdXE">Discord server</a>
+```console
+$ python GTerminal.py -discord
+```
+#### -github
+Opens the <a href="https://discord.gg/Fa36fvAdXE">GitHub</a>
+```console
+$ python GTerminal.py -github
+```
 
 ## Versions
+
 
 <div align="center">
 
