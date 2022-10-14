@@ -1,9 +1,17 @@
 # GTerminal
-Coolest way to install mods on Gorilla Tag. 😎
-Windows Only.
+The world's first terminal installer for mods on Gorilla Tag. 😎
 
 (Disclaimer) Use only for development/educational purposes. I am not responsible for anything happening.
 Most mods are checked for viruses, but it is not guaranteed. I highly think you should run your mod through DNSpy, and if anything suspicious is found, join the <a href="https://discord.gg/Fa36fvAdXE">Discord Server</a> and make a report.
+
+*but there are so many other ways to install mods!!! why should I use GTerminal???*
+- [x] Open Source
+- [x] Free to use
+- [x] Hub for many mods
+- [x] Easy to install
+- [x] Simple, 
+- [x] It only takes a few seconds
+
 ## Installation
 ### 1. Unzip the file
 This doesn't require explaining.
