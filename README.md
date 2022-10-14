@@ -12,6 +12,7 @@ Most mods are checked for viruses, but it is not guaranteed. I highly think you 
 - [x] Simple, 
 - [x] It only takes a few seconds
 
+
 ## Installation
 ### 1. Unzip the file
 This doesn't require explaining.
@@ -78,6 +79,12 @@ Opens the <a href="https://github.com/Silentious/GTerminal">GitHub</a>
 ```console
 $ python GTerminal.py -github
 ```
+
+## MAYBE SOON:
+- Uninstalling
+- EXE Version
+- Announcment Hide
+- 
 
 ## Versions
 
