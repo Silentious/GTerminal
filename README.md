@@ -48,7 +48,7 @@ Without -i:
 **CoolMenu.dll**
 ```console
 # expected requirements:
-$ python GTerminal.py -install <mods> -i
+$ python GTerminal.py -install <mod> -i
 ```
 #### -version
 Shows which version of GTerminal you are using
@@ -66,7 +66,7 @@ Opens the <a href="https://discord.gg/Fa36fvAdXE">Discord server</a>
 $ python GTerminal.py -discord
 ```
 #### -github
-Opens the <a href="https://discord.gg/Fa36fvAdXE">GitHub</a>
+Opens the <a href="https://github.com/Silentious/GTerminal">GitHub</a>
 ```console
 $ python GTerminal.py -github
 ```
