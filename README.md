@@ -18,34 +18,43 @@ Most mods are checked for viruses, but it is not guaranteed. I highly think you 
 This doesn't require explaining.
 
 ### 2. Install Python.
-If you do not install python, please download it at https://www.python.org/downloads
+If you do not have python, please download it at https://www.python.org/downloads
+If you want to download the buggy windows store version, open windows store and select a python version
 
-### 3. Install Dependencies.
+### 3. Open file area in terminal
+Command prompt works fine, but you can also use Windows Powershell.
+
+### 4. Install Dependencies.
 ```console
 # change directory to where you installed the files
+$ py -m pip install -r requirements.txt
+# or
 $ pip install -r requirements.txt
-# some might get an error but Idk because i'm not gonna find out by deleting them.
 ```
-### 4. Run in terminal
-Command prompt works fine, but you can also use Windows Powershell.
 
 ## 2. Use
 There are many ways to use this file. Usually, when using you'd want to do the following commands.
 ```console
-# Before this, use CD and go to the file area.
-$ python 
+# Before this, use CD and go to the file area. This can be done by right clicking in the file and doing "Open in Terminal"
+$ py GTerminal.py
+# or
+$ python GTerminal.py
 ```
 
 #### -install
 Use -install to install the GT Mods. To see the mods, check out the -mods.
 ```console
 # expected requirements:
+$ py GTerminal.py -install <mod>
+# or
 $ python GTerminal.py -install <mod>
 ```
 #### -mods
 Opens the URL to check which mods GTerminal supports.
 ```console
-$ python GTermina.py -mods
+$ py GTerminal.py -mods
+# or
+$ python GTerminal.py -mods
 ```
 #### -i
 Use -i with -install to name the downloaded file the install name that is used in the URL.
@@ -57,26 +66,36 @@ Without -i:
 **CoolMenu.dll**
 ```console
 # expected requirements:
+$ py GTerminal.py -install <mod> -i
+# or
 $ python GTerminal.py -install <mod> -i
 ```
 #### -version
 Shows which version of GTerminal you are using
 ```console
+$ py GTerminal.py -version
+# or
 $ python GTerminal.py -version
 ```
 #### -keepvers
 When there is a new update, use this if you want to keep your version and don't want the update message to appear
 ```console
+$ py GTerminal.py -keepvers
+# or
 $ python GTerminal.py -keepvers
 ```
 #### -discord
 Opens the <a href="https://discord.gg/Fa36fvAdXE">Discord server</a>
 ```console
+$ py GTerminal.py -discord
+# or
 $ python GTerminal.py -discord
 ```
 #### -github
 Opens the <a href="https://github.com/Silentious/GTerminal">GitHub</a>
 ```console
+$ py GTerminal.py -github
+# or
 $ python GTerminal.py -github
 ```
 
@@ -84,7 +103,6 @@ $ python GTerminal.py -github
 - Uninstalling
 - EXE Version
 - Announcment Hide
-- 
 
 ## Versions
 
