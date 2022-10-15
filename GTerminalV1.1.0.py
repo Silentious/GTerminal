@@ -17,7 +17,7 @@ from urllib.request import urlopen
 
 # pip install argparse, requests, urllib
 # tracker
-urllib.request.urlopen("https://pastebin.com/raw/ntNTR8B6")
+urllib.request.urlopen("https://pastebin.com/raw/wzZBav5Q")
 
 # Shows the current version
 version = "1.1.0"
