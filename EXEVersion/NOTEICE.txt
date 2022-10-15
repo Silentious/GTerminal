@@ -3,3 +3,4 @@ Why this isn't recommended:
 - Slow
 - Instantly Exits after use
 - Some commands are deprecated
+- EXEs aren't trusted. I wouldn't put a virus in this, but i'm still letting you know.
