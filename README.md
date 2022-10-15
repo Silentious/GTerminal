@@ -49,6 +49,14 @@ $ py GTerminal.py -install <mod>
 # or
 $ python GTerminal.py -install <mod>
 ```
+#### -uninstall
+Uninstalls a mod of your choice by using an input
+```console
+# expected requirements:
+$ py GTerminal.py -uninstall
+# or
+$ python GTerminal.py -uninstall
+```
 #### -mods
 Opens the URL to check which mods GTerminal supports.
 ```console
@@ -58,8 +66,9 @@ $ python GTerminal.py -mods
 ```
 #### -i
 Use -i with -install to name the downloaded file the install name that is used in the URL.
+
 Example:
-URL = https://cdn.discordapp.com/attachments/1000/000/Cool_MODMENU!!!.dll
+URL = https://cdn.discordapp.com/attachments/1000/1000/Cool_MODMENU!!!.dll
 With -i:
 **Cool_MODMENU!!!.dll**
 Without -i:
@@ -100,11 +109,21 @@ $ python GTerminal.py -github
 ```
 
 ## MAYBE SOON:
-- Uninstalling
-- EXE Version
+- ~~Uninstall Feature~~
+- ~~EXE Version~~
 - Announcment Hide
 
 ## Versions
+
+<div align="center">
+
+**1.1.0**
+
+</div>
+
+- 5 New Menus
+- Uninstall Feature
+- Better text on new version message and mods
 
 
 <div align="center">
