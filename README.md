@@ -124,7 +124,7 @@ $ python GTerminal.py -github
 - 5 New Menus
 - Uninstall Feature
 - Better text on new version message and mods
-
+- Fixed mods sometimes not installing
 
 <div align="center">
 
