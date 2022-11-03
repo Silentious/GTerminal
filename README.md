@@ -117,6 +117,19 @@ $ python GTerminal.py -github
 
 <div align="center">
 
+**1.2.2**
+
+</div>
+
+- **JSON CONFIG**
+- better text readability
+- fixed double -version
+- ??fixed mod sometimes not installing??=
+- removed -keepvers and -i in favor of the config file
+- no new mods
+
+<div align="center">
+
 **1.1.0**
 
 </div>
