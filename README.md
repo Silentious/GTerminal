@@ -112,8 +112,17 @@ $ python GTerminal.py -github
 - ~~Uninstall Feature~~
 - ~~EXE Version~~
 - Announcment Hide
+- ???
 
 ## Versions
+
+<div align="center">
+
+**1.2.3**
+
+</div>
+
+- fix for _-config_ command
 
 <div align="center">
 
