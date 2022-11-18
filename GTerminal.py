@@ -5,7 +5,7 @@ import urllib
 import time
 import json
 from halo import Halo
-from os import link, startfile
+from os import startfile
 from argparse import RawTextHelpFormatter
 from urllib.request import urlopen
 
@@ -30,7 +30,7 @@ double = data['DoubleCheck']
 
 
 # Shows the current version
-version = "1.2.2"
+version = "1.2.3"
 
 #makes a list of acceptable variable types
 acceptableFT = [True, False]
@@ -44,10 +44,8 @@ output = s.decode("utf-8") #decode because computers suck
 
 # Check for new version
 if (version != output) and (keepvers == False):
-    with open("C:\\GTerminal\\keepvers.txt", 'r') as f:
-        if f.read() != 't':
-            print("New Version found!: " + output + ". Your current version is " + version + ".")
-            print("If you'd like to update, head to https://github.com/Silentious/GTerminal/\nIf you would like to not see this message again, do -keepvers") # update pls no keep version
+    print("New Version found!: " + output + ". Your current version is " + version + ".")
+    print("If you'd like to update, head to https://github.com/Silentious/GTerminal/\nIf you would like to not see this message again, do -keepvers") # update pls no keep version
 
 announcment = urllib.request.urlopen('https://pastebin.com/raw/KgjGWbnX').read().decode('UTF-8')
 
@@ -221,6 +219,11 @@ if args.mods:
 # opens the discord
 if args.discord:
     os.system("start \"\" https://discord.gg/Fa36fvAdXE ")
+
+# opens the config file
+if args.config:
+    os.startfile("config.json")
+    print("Opened config file.")
 
 #opens the github page
 if args.github:
